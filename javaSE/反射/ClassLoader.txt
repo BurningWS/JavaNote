@@ -1,0 +1,11 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+		System.out.println(String.class.getClassLoader());
+	}
+
+}
+//BootStrap ClassLoader 镙圭被锷犺浇鍣╡t.jar
+//Extension ClassLoader 镓╁睍绫诲姞杞藉櫒ext
+//System ClassLoader 绯荤粺绫诲姞杞藉櫒

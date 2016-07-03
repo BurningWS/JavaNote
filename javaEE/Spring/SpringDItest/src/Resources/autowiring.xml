@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd"
+
+	default-autowire="constructor">  <!--- default - no - byName - byType - constructor -->
+
+	<!-- services -->
+
+	<bean id="autoWiringDAO" class="autowiring.AutoWiringDAO" />  <!--id must be corresponding to the service's property name -->
+	<bean id="service" class="autowiring.AutoWiringService" />
+
+	<!-- more bean definitions for services go here -->
+
+</beans>

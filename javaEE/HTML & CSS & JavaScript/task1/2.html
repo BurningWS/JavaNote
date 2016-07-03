@@ -1,0 +1,36 @@
+<html>
+<head>
+	<script type="text/javascript">
+	x = 5;
+	document.write(x === '5'); 
+		
+	document.write('who are you    ?');
+		function fun() {
+			var p = document.getElementById('func');
+			var c = p.firstChild;
+			c.nodeValue = 'No NO no';
+			/*鎴栬€呬负 p.innerHTML*/
+			// document.write("Xxx");  //鏂囨。锷犺浇瀹屽悗镓ц 浼氲鐩栧师链夊唴瀹?
+			
+			var wtf = 156; /*浼氲嚜锷ㄥ０鏄庝负鍏ㄥ眬鍙橀噺*/
+		}
+		
+	/*瀵硅薄镄勫畾涔?/
+	var obj = {name:"Nick", age:15, id:"15151654"};
+	name = obj.name;
+	name = obj["name"];  //涓ょ瀵诲潃鏂瑰纺
+	document.write(name);
+
+	</script>
+</head>
+<body>
+	<p id="func">yes yes </p>
+	<button onclick="fun()">hello</button>
+	<p id="demo">upupup</p>
+
+	<script type="text/javascript">
+		fun();
+		document.write(wtf);
+	</script>
+</body>
+</html>
