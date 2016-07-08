@@ -1,8 +1,6 @@
 package basic;
 class ThreadA extends Thread{
 	
-	int a = 0;
-	
     public ThreadA(String name) {
         super(name);
     }
@@ -14,7 +12,7 @@ class ThreadA extends Thread{
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
-        	this.a = 1;
+        	
             System.out.println(Thread.currentThread().getName()+" call notify()");
             // 唤醒当前的wait线程
             notify();
